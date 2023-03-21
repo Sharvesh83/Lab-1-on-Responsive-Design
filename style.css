@@ -1,0 +1,46 @@
+/* Apply styles to the hamburgermenu div */
+#hamburgermenu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 250px;
+    background-color: #ffffff;
+    z-index: 1;
+}
+
+/* Apply styles to the hamburgerbox div */
+.hamburgerbox {
+    display: flex;
+    align-items: center;
+    padding: 12px 16px;
+    cursor: pointer;
+}
+
+/* Apply styles to the logo images */
+.logo {
+    height: 28px;
+    margin-right: 16px;
+}
+
+/* Apply styles to the span text */
+span {
+    font-size: 18px;
+    margin-left: 12px;
+    color: #030303;
+}
+
+/* Apply styles to the hr tag */
+hr {
+    margin: 16px 0;
+    border: none;
+    height: 1px;
+    background-color: #efefef;
+}
+.Sub{
+    display: flex;
+    align-items: center;
+    padding: 12px 16px;
+    cursor: pointer;
+    font-weight: bolder;
+}
